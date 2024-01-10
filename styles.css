@@ -1,5 +1,11 @@
 div {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#center {
+    display: flex;
+    justify-content: center;
 }
 
 .headerbox {
@@ -9,21 +15,34 @@ div {
 
 .header {
     font-size: x-large;
-    width: 100px;
-    height: 50px;
+    width: auto;
+    height: auto;
     
+}
+
+p {
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
 .box {
     display: flex;
-    justify-content: flex-start;
+    /*justify-content: space-evenly; */
     border: 1px black solid;
+    border-left: none;
+    border-right: none;
+    width: 500px;
+    height: 100px;
 }
 
 #self {
-   width: 100px;
+   width: auto;
+   height: auto;
+   flex: auto;
 }
 
 #proj {
-    width: 100px;
+    width: auto;
+    height: auto;
+    flex: auto;
 }
