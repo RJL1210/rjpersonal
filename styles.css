@@ -6,6 +6,7 @@ div {
 #center {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .headerbox {
@@ -35,11 +36,6 @@ p {
     height: 100px;
 }
 
-#self {
-   width: auto;
-   height: auto;
-   flex: auto;
-}
 
 #proj {
     width: auto;
