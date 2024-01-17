@@ -36,6 +36,13 @@ p {
     border: 1px black solid;
     border-left: none;
     font-size:large;
+    flex-direction: column;
+}
+
+.directory a{
+    margin: 10px;
+    
+    
 }
 
 
